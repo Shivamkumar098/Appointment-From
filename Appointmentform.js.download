@@ -1,0 +1,38 @@
+var Appointmentform=document.getElementById("Appointmentform");
+Appointmentform.addEventListener("submit", function(e){
+    e.preventDefault();
+     var Name=document.getElementById[`name`];
+     var Email=document.getElementById[`email`];
+     var Phone=document.getElementById[`phone`];
+     var DateofBirth=document.getElementById[`dateofbirth`];
+     var TimeofAppointment=document.getElementById[`Time`];
+     var DateofAppointment=document.getElementById[`dateofappointment`];
+
+     
+    // console.log(loginform.elements[`username`].value)
+
+    /*var name=Appointmentform.elements[`name`];
+    // if(username.length<7){
+    //     console.log("username must be 7 characters")
+    // }*/
+    // var Name=Appointmentform.elements[`name`];
+    // var Email=Appointmentform.elements[`email`];
+    // var Phone=Appointmentform.elements[`phone`];
+    // var DateofBirth=Appointmentform.elements[`dateofbirth`];
+    // var TimeofAppointment=Appointmentform.elements[`Time`];
+
+
+    var AppointmentData={
+        Name,
+        Email,
+        Phone,
+        DateofBirth,
+        TimeofAppointment,
+        DateofAppointment
+    }
+
+    console.log(AppointmentData);
+})
+
+
+
